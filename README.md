@@ -6,7 +6,7 @@ eCommerce website like Amazon
 
 ## Features
 
-- Shoppin Cart
+- Shopping Cart
 - Product reviews and ratings
 - Top products on display
 - Product pagination

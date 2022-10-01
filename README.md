@@ -2,24 +2,14 @@
 
 # Description
 
-eCommerce platform built with the MERN stack & Redux. This app includes authentication, profiles, products catalog, shopping cart etc. Users can make purchases, review products, rate them. Authenticated admin users can modify products catalog, mark paid orders to delivery, give admin rights regular users. Payment system is developed with PayPal API.
+eCommerce website like Amazon
 
 ## Features
 
-- Full featured shopping cart
+- Shoppin Cart
 - Product reviews and ratings
-- Top products carousel
+- Top products on display
 - Product pagination
-- Product search feature
-- User profile with orders
-- Admin product management
-- Admin user management
-- Admin Order details page
-- Mark orders as delivered option
-- Checkout process (shipping, payment method, etc)
-- PayPal / credit card integration
-- Database seeder (products & users)
-
 
 <br>
 
@@ -38,11 +28,11 @@ Test users credentials:
 
 > Regular user
 >
-> - login - _john@example.com_
+> - login - _k@example.com_
 > - password - _123456_
 
 _Due to demo reasons and heroku free terms, if an app receives no web traffic in a 30-minute period, it will sleep. Therefore, during the first launch, the application may take longer to load than usual, approximately 15 - 20 seconds. So please be patient and wait for the app to launch. Subsequent launches will be relatively fast._
-
+heroku create -a example-app
 ## Technology stack
 
 > ### FrontEnd
@@ -63,9 +53,7 @@ _Due to demo reasons and heroku free terms, if an app receives no web traffic in
 > - Heroku hosting
 >   <br>
 
-## Usage
 
-Clone this repository to desired location
 
 
 
@@ -107,7 +95,7 @@ cd frontend
 npm run build
 ```
 
-There is a Heroku postbuild script, so if you push to Heroku, no need to build manually for deployment to Heroku
+
 
 ### Seed Database
 
@@ -124,8 +112,8 @@ npm run data:destroy
 Sample User Logins
 admin@example.com (Admin)
 123456
-john@example.com (Customer)
+kk@example.com (Customer)
 123456
-jane@example.com (Customer)
+jj@example.com (Customer)
 123456
 ```

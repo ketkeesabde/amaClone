@@ -17,7 +17,7 @@ eCommerce website like Amazon
 ## Live demo
 
 Live demo of the app is hosted on Heroku.  
-Visit []
+Visit [https://amacloneapp.herokuapp.com/]
 
 Test users credentials:
 
